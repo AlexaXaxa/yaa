@@ -14,7 +14,7 @@
   <body>
     
     <div>
-      <header>
+      <header class="container_header">
         <a href="https://github.com/AlexaXaxa">Github</a>
         <a href="https://www.instagram.com/jjj123342/">Instagram</a>
         <a href="index.html">Home</a>
@@ -22,23 +22,16 @@
     </div>
 
       <h1>COUNTING APPLICATION</h1>
-      <div id="body_index1">
-        <ul>
-          <li>
-            <button class="button_inc" , id="incid" , onclick="increce()">
-              INCREACE
-            </button>
-          </li>
-          <li>
-            <button class="button_save" , id="saveid" , onclick="to_another()">
-              SAVE</button>
-          </li>
-        </ul>
+
+      <div class="container">
+        <button class="item" id="increace" onclick="increce()">INCREASE</button>
+        <button class="item" id="save"     onclick="to_another()">SAVE</button>
       </div>
+
       <p id="count-el">0</p>
 
 
-    <button class="button_reset" , onclick="reset()">reset</button>
+    <button id="button_reset" , onclick="reset()">reset</button>
 
     <script src="main.js"></script>
   </body>
